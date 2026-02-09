@@ -1,0 +1,6 @@
+crewai
+crewai_tools
+langchain
+langchain_google_genai
+fastapi 
+uvicorn
