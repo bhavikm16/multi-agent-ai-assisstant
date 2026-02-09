@@ -1,0 +1,85 @@
+/* Header Container */
+.header {
+  height: 64px;
+  padding: 0 28px;
+  background: linear-gradient(135deg, #3b1c5a, #4c276f);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.logo-icon {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.logo span {
+  font-size: 20px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #ffffff, #e0d7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Right Section */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Buttons */
+.header-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px 14px;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  border-radius: 10px;
+
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.header-btn svg {
+  font-size: 15px;
+}
+
+/* Hover */
+.header-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+/* Primary (Login) */
+.primary-btn {
+  background: #5b5cf0;
+}
+
+.primary-btn:hover {
+  background: #4a4be8;
+}
+
+/* Logout */
+.logout-btn {
+  background: rgba(255, 0, 0, 0.18);
+}
+
+.logout-btn:hover {
+  background: rgba(255, 0, 0, 0.28);
+}

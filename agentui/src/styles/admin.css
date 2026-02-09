@@ -1,0 +1,102 @@
+/* ---------- Admin Page ---------- */
+.admin-page {
+  min-height: calc(100vh - 64px); /* header height */
+  padding: 32px 24px;
+  background: linear-gradient(135deg, #4b2a73, #5e3b8c);
+  color: #ffffff;
+}
+
+/* ---------- Title ---------- */
+.admin-page h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+/* ---------- Status Text ---------- */
+.admin-page p {
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+/* Error */
+.admin-error {
+  color: #ffb4b4;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* ---------- Table Wrapper ---------- */
+.admin-table-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
+/* ---------- Table ---------- */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+/* Header */
+.admin-table thead {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.admin-table th {
+  padding: 14px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 700;
+  color: #f3e8ff;
+}
+
+/* Rows */
+.admin-table td {
+  padding: 14px;
+  font-size: 14px;
+  color: #f9fafb;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.admin-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Hover */
+.admin-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* ---------- Blocked Query Text ---------- */
+.blocked-text {
+  color: #ffb4b4;
+  font-weight: 600;
+}
+
+/* ---------- Date ---------- */
+.admin-date {
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .admin-table-wrapper {
+    padding: 12px;
+  }
+
+  .admin-table th,
+  .admin-table td {
+    font-size: 13px;
+    padding: 10px;
+  }
+}
